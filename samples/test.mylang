@@ -1,0 +1,14 @@
+func factorial(n) {
+    if n == 0 {
+        return 1
+    } else {
+        return n * factorial(n - 1)
+    }
+}
+
+a = 10
+b = 20
+print(a)
+print(b)
+print(a + b)
+print("Done")
